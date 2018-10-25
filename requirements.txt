@@ -1,1 +1,8 @@
 Django==1.7.3
+pyecharts
+echarts-countries-pypkg
+echarts-china-provinces-pypkg
+echarts-china-cities-pypkg
+echarts-china-counties-pypkg
+echarts-china-misc-pypkg
+echarts-united-kingdom-pypkg
