@@ -28,7 +28,7 @@ style_geo = style.add(
     label_formatter="{b}",
     label_text_color="#",
     symbol=[None,None],
-    maptype=u"中国",
+    # maptype=u"新疆",
     is_geo_effect_show=False,
     geo_normal_color="#BDD3C6"
     # legend_selectedmode="single"
@@ -47,4 +47,9 @@ def generate_html():
         [u"吐鲁番", u"乌鲁木齐"],
     ]
     geolines = GeoLines(u"例子", **style.init_style)
+    geolines.add(u"depart1", data_urumchi, **style_geo)
+    geolines.add(u"depart2", data_turpan, **style_geo)
     geolines.render()
+
+if __name__ == "__main__":
+    generate_html()
