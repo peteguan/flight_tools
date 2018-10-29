@@ -34,3 +34,17 @@ style_geo = style.add(
     # legend_selectedmode="single"
 )
 
+def generate_html():
+    data_urumchi = [
+        [u"乌鲁木齐", u"吐鲁番"],
+        [u"乌鲁木齐", u"库尔勒"],
+        [u"乌鲁木齐", u"哈密"],
+        [u"乌鲁木齐", u"和田"],
+        [u"乌鲁木齐", u"喀什"],
+        [u"乌鲁木齐", u"阿克苏"]
+    ]
+    data_turpan = [
+        [u"吐鲁番", u"乌鲁木齐"],
+    ]
+    geolines = GeoLines(u"例子", **style.init_style)
+    geolines.render()
