@@ -1,4 +1,4 @@
-Django==1.7.3
+Django==1.11.28
 pyecharts
 echarts-countries-pypkg==0.1.4
 echarts-china-provinces-pypkg==0.0.2
